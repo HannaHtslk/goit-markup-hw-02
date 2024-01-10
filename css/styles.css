@@ -1,0 +1,70 @@
+body {
+    font-family: "Roboto", sans-serif;
+    color: #434455;
+    background-color: #FFF;
+}
+:root {
+    --general-text-color: #434455;
+    --subheader-color: #2E2F42;
+    --main-text-font: "Roboto", sans-serif;
+    --subheader-font: "Roboto", sans-serif;
+    --logo-font: "Raleway", sans-serif;
+    --footer-background: #2E2F42;
+
+}
+.page-header {
+    background-color: #FFF;
+}
+.logo {
+    color:#4D5AE5;
+        font-family: Raleway;
+        font-size: 18px;
+        font-weight: 800;
+        line-height: 21px;
+        letter-spacing: 0.54px;
+        text-transform: uppercase;
+}
+.second_name {
+    color: #2E2F42;
+        font-family: Raleway;
+        font-size: 18px;
+        font-weight: 800;
+        line-height: 21px;
+        letter-spacing: 0.54px;
+        text-transform: uppercase;
+}
+.link {
+    text-decoration: none;
+}
+.list {
+    list-style-type: none;
+}
+.menu-item {
+    font-family: var(--subheader-font);
+    color: var(--subheader-color);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.32px;
+}
+.contact-email {
+    color: var(--general-text-color);
+        font-family: var(--main-text-font);
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0.32px;
+        font-style: normal;
+}
+.contact-phone-number {
+    color: var(--general-text-color);
+font-family: var(--main-text-font);
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0.32px;
+        font-style: normal;
+}
+.contact-email .link {
+    text-decoration: none;
+}
