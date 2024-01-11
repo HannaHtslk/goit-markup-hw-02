@@ -6,21 +6,19 @@ body {
 :root {
     --general-text-color: #434455;
     --subheader-color: #2E2F42;
-    --main-text-font: "Roboto", sans-serif;
-    --subheader-font: "Roboto", sans-serif;
     --logo-font: "Raleway", sans-serif;
     --footer-background: #2E2F42;
+    --footer-text-color: #F4F4FD; 
+    --main-page-background: #2E2F42; 
 
-}
-.page-header {
-    background-color: #FFF;
+
 }
 .logo {
     color:#4D5AE5;
         font-family: Raleway;
         font-size: 18px;
-        font-weight: 800;
-        line-height: 21px;
+        font-weight: 700;
+        line-height: 1.1667;
         letter-spacing: 0.54px;
         text-transform: uppercase;
 }
@@ -28,10 +26,19 @@ body {
     color: #2E2F42;
         font-family: Raleway;
         font-size: 18px;
-        font-weight: 800;
-        line-height: 21px;
+        font-weight: 700;
+        line-height: 1.1667;
         letter-spacing: 0.54px;
         text-transform: uppercase;
+}
+.second_name_upd {
+color: #F4F4FD;
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.1667;
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
 }
 .link {
     text-decoration: none;
@@ -52,7 +59,7 @@ body {
         font-family: var(--main-text-font);
         font-size: 16px;
         font-weight: 400;
-        line-height: 24px;
+        line-height: 1.5;
         letter-spacing: 0.32px;
         font-style: normal;
 }
@@ -61,10 +68,133 @@ body {
 font-family: var(--main-text-font);
         font-size: 16px;
         font-weight: 400;
-        line-height: 24px;
+        line-height: 1.5;
         letter-spacing: 0.32px;
         font-style: normal;
 }
 .contact-email .link {
     text-decoration: none;
+}
+
+.footer-text {
+    color: var(--footer-text-color);
+    font-family: var(--main-text-font);
+    font-size: 16px;
+        font-weight: 400;
+        line-height: 1.5;
+        letter-spacing: 0.32px;
+}
+.website-footer {
+    background-color: var(--footer-background);
+}
+.main-page {
+    background-color: var(--main-page-background);
+}
+.main-title {
+    color: #FFF;
+        text-align: center;
+        font-size: 56px;
+        font-weight: 700;
+        line-height: 1.0714;
+        letter-spacing: 1.12px;
+}
+.modal-btn {
+    cursor: pointer;
+    background-color: #4D5AE5;
+   color: #FFF;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 1.5;
+        letter-spacing: 0.64px;;
+
+}
+.modal-btn:hover {
+    background-color: #404BBF;
+
+}
+
+.menu .link:hover {
+color: #404BBF;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+}
+.menu .link:focus {
+    text-decoration: underline;
+
+}
+.contact-information .link:hover {
+    color:#404BBF;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 1.5;
+        letter-spacing: 0.32px;
+
+}
+
+.company-value {
+    color: var(--subheader-color);
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 1.5;
+        letter-spacing: 0.4px;
+}
+.value-descr {
+    color: var(--general-text-color);
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 1.5;
+        letter-spacing: 0.32px;
+}
+.team-title {
+color: var(--subheader-color);
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.1111;
+    letter-spacing: 0.72px;
+    text-transform: capitalize;
+}
+.company-team {
+    background-color: #F4F4FD;
+}
+.member-name {
+    color: var(--subheader-color);
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 1.2;
+        letter-spacing: 0.4px;
+}
+.member-position {
+    color: var(--general-text-color);
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 1.5;
+        letter-spacing: 0.32px;
+}
+.app-concept {
+    color: var(--subheader-color);
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 1.2;
+        letter-spacing: 0.4px;
+}
+.field-of-usage {
+    color: var(--general-text-color);
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 1.5;
+        letter-spacing: 0.32px;
+}
+.portfolio-title {
+    color: var(--subheader-color);
+        text-align: center;
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 1.1111;
+        letter-spacing: 0.72px;
+        text-transform: capitalize;
 }
